@@ -1,0 +1,94 @@
+/* Estilos Generales */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    font-family: 'Nunito', sans-serif; /* Fuente moderna, asegúrate de cargarla o elige otra */
+}
+
+/* Ajustes del Fondo */
+.body_login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('../img/fondoprincipal.c92da4f13282b7b9.jpg') no-repeat center center fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.container {
+    height: 100vh; /* 100% de la altura de la ventana gráfica */
+    min-height: 100vh;
+    margin-top: 0; /* Asegúrate de no tener un margen superior */
+    display: flex;
+    align-items: center; /* Centrar verticalmente el contenido */
+    justify-content: center; /* Centrar horizontalmente el contenido */
+}
+
+/* Estilos del Formulario de Login */
+.form-login {
+    background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para la legibilidad */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px; /* Ancho máximo del formulario */
+}
+
+/* Ajustes de la Imagen de Encabezado (Logo) */
+.form-login-heading {
+    width: 100%; /* Ajusta este valor según tus necesidades */
+    display: block;
+    margin: 0 auto 2rem auto; /* Centrar el logo y dar margen */
+}
+
+/* Estilos para los Inputs y el Botón */
+.form-floating {
+    margin-bottom: 1rem; /* Espacio entre campos */
+}
+
+.form-control {
+    border-radius: 5px; /* Bordes redondeados para los campos de texto */
+}
+
+.btn-primary {
+    border-radius: 5px; /* Bordes redondeados para el botón */
+}
+
+/* Ajustes de Texto y Enlaces */
+.checkbox {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.checkbox p {
+    color: #0f0f0f; /* Texto blanco para legibilidad */
+    text-align: center; /* Centrar el texto */
+}
+
+.link-light {
+    color: #0d6efd; /* Enlace con el color primario de Bootstrap */
+    text-decoration: underline; /* Subrayar para indicar que es clickeable */
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .form-login-heading {
+        width: 90%; /* Logo más grande en dispositivos móviles */
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-login {
+        width: 100%;
+        padding: 1rem;
+    }
+}
