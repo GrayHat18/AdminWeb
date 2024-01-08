@@ -1,13 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package utility;
 
-/**
- *
- * @author fabi_
- */
-public class MapperStrategy {
-    
+public interface MapperStrategy<T, R> {
+
+    R mapToDto(T entity);
+
+    T mapToModel(R dto);
 }
