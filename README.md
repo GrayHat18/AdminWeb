@@ -17,18 +17,16 @@ mvn clean install
 ```
 
 ## Estructura del proyecto
-AdminWeb/
-│
-├── .github/workflows/     # CI/CD
-├── src/                   # Código fuente del proyecto como tal
-│   ├── main/
-│   │   ├── java/          # Repositorio java del proyecto
-│   │   ├── resources/     # Recursos externos asociados al proyecto (XML, propiedades, JSON)
-│   │   └── webapp/        # Carpeta con el repositorio frontend del proyecto
-│   └── test/              # Directorio para las pruebas unitarios y/o integración
-│
-├── pom.xml                # Configuración de las dependencias maven del proyecto
-└── README.md              # Documentación asociada al proyecto
+├── .github/
+│ └── workflows/ # *CI/CD*
+├── src/
+│ ├── main/
+│ │ ├── java/ # *Repositorio java del proyecto*
+│ │ ├── resources/ # *Recursos externos (XML, propiedades, JSON)*
+│ │ └── webapp/ # *Carpeta con el repositorio frontend del proyecto*
+│ └── test/ # *Directorio para pruebas unitarias e integración*
+├── pom.xml # *Configuración de las dependencias Maven*
+└── README.md # *Documentación asociada al proyecto*
 
 
 ## Deployments
