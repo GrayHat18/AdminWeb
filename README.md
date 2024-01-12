@@ -16,19 +16,6 @@ cd AdminWeb
 mvn clean install
 ```
 
-## Estructura del proyecto
-├── .github/
-│ └── workflows/ # *CI/CD*
-├── src/
-│ ├── main/
-│ │ ├── java/ # *Repositorio java del proyecto*
-│ │ ├── resources/ # *Recursos externos (XML, propiedades, JSON)*
-│ │ └── webapp/ # *Carpeta con el repositorio frontend del proyecto*
-│ └── test/ # *Directorio para pruebas unitarias e integración*
-├── pom.xml # *Configuración de las dependencias Maven*
-└── README.md # *Documentación asociada al proyecto*
-
-
 ## Deployments
 ### Requisitos
 - Iniciar servidor de aplicaciones para Java EE, en el entorno local
